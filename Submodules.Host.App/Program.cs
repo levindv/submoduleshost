@@ -11,7 +11,7 @@ namespace Submodules.Host.App
             var first = new FirstLogic();
             var second = new SecondLogic();
 
-            var fresult = first.ExecuteAndGetStatus(new First.Contracts.FirstContract());
+            var fresult = first.ExecuteAndGetStatus(new First.Contracts.FirstContract()); // was fixed contract default value
             var sresult = second.ExecuteAndGetPunctuation(new Second.Contracts.SecondContract());
 
             Console.WriteLine(Environment.NewLine + "Should be '" + fresult + sresult + "'");
