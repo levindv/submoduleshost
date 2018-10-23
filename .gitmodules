@@ -1,0 +1,6 @@
+[submodule "second"]
+	path = second
+	url = https://github.com/levindv/secondsubmodule
+[submodule "first"]
+	path = first
+	url = https://github.com/levindv/firstsubmodule
