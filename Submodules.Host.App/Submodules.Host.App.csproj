@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\first\Submodules.First.Logic\Submodules.First.Logic.csproj" />
+    <ProjectReference Include="..\second\Submodules.Second.Logic\Submodules.Second.Logic.csproj" />
+  </ItemGroup>
+
 </Project>

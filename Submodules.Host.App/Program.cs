@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Submodules.First.Logic;
+using Submodules.Second.Logic;
+using System;
 
 namespace Submodules.Host.App
 {
@@ -6,7 +8,13 @@ namespace Submodules.Host.App
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var first = new FirstLogic();
+            var second = new SecondLogic();
+
+            var fresult = first.ExecuteAndGetStatus(new First.Contracts.FirstContract());
+            var sresult = second.ExecuteAndGetPunctuation(new Second.Contracts.SecondContract());
+
+            Console.WriteLine(Environment.NewLine + "Should be '" + fresult + sresult + "'");
             Console.ReadLine();
         }
     }
