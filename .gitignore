@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Submodules.Host/v15
+/Submodules.Host.App/bin
+/Submodules.Host.App/obj
