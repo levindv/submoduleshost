@@ -5,3 +5,5 @@
 /.vs
 /Submodules.Host.App/bin
 /Submodules.Host.App/obj
+/first/Submodules.First.Contracts/obj
+/first/Submodules.First.Logic/obj
